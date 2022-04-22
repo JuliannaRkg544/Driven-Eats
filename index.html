@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./estilo/reset.css">
+    <link rel="stylesheet" href="./estilo/style.css">
+    <title>Driven Eats</title>
+</head>
+
+<body>
+    <header>
+        <h1>Driven Eats</h1>
+        <h4>Sua comida em 6 minutos</h4>
+    </header>
+    <main>
+        <h3>Primeiro, seu prato</h3>
+        <section class="food">
+            <div onclick="selectFood(this,'Umpouco de batata, um pouco de salada', 14.90)" class="food-option">
+                <img src="./estilo/img/frango.png" alt="franguinho">
+                <p class="name">Frango Yin Yang</p>
+                <p class="description">Umpouco de batata, um pouco de salada</p>
+                <p class="price">R$ 14,90</p>
+                <ion-icon class="check hidden" name="checkmark-circle"></ion-icon>
+            </div>
+            <div  onclick="selectFood(this,'Umpouco de batata, um pouco de salada',14.90)" class="food-option" id="1">
+                <img src="./estilo/img/frango.png" alt="franguinho">
+                <p class="name">Frango Yin Yang</p>
+                <p class="description">Umpouco de batata, um pouco de salada</p>
+                <p class="price">R$ 14,90</p>
+                <ion-icon class="check hidden" name="checkmark-circle"></ion-icon>
+            </div>
+            <div onclick="selectFood(this,'Umpouco de batata, um pouco de salada',14.90)" class="food-option">
+                <img src="./estilo/img/frango.png" alt="franguinho">
+                <p class="name">Frango Yin Yang</p>
+                <p class="description">Umpouco de batata, um pouco de salada</p>
+                <p class="price">R$ 14,90</p>
+                <ion-icon class="check hidden" name="checkmark-circle"></ion-icon>
+            </div>
+            <div onclick="selectFood(this,'Umpouco de batata, um pouco de salada',14.90)" class="food-option">
+                <img src="./estilo/img/frango.png" alt="franguinho">
+                <p class="name">Frango Yin Yang</p>
+                <p class="description">Umpouco de batata, um pouco de salada</p>
+                <p class="price">R$ 14,90</p>
+                <ion-icon class="check hidden" name="checkmark-circle"></ion-icon>
+            </div>
+        </section>
+     
+        <h3>Agora, sua bebida</h3>
+        <section class="drink">
+            <div class="food-option" onclick="selectDrink(this,'coquinha',4.90)">
+                <img src="./estilo/img/coca.png" alt="franguinho">
+                <p class="name">Coquinha Gelada</p>
+                <p class="description">Coca 350ml</p>
+                <p class="price">R$ 4,90</p>
+                <ion-icon class="check hidden" name="checkmark-circle"></ion-icon>
+            </div>
+            <div class="food-option" onclick="selectDrink(this,'coquinha',4.90)">
+                <img src="./estilo/img/coca.png" alt="franguinho">
+                <p class="name">Coquinha Gelada</p>
+                <p class="description">Coca 350ml</p>
+                <p class="price">R$ 4,90</p>
+                <ion-icon class="check hidden" name="checkmark-circle"></ion-icon>
+            </div>
+            <div class="food-option" onclick="selectDrink(this,'coquinha',4.90)">
+                <img src="./estilo/img/coca.png" alt="franguinho">
+                <p class="name">Coquinha Gelada</p>
+                <p class="description">Coca 350ml</p>
+                <p class="price">R$ 4,90</p>
+                <ion-icon class="check hidden" name="checkmark-circle"></ion-icon>
+            </div>
+            <div class="food-option" onclick="selectDrink(this,'coquinha',4.90)">
+                <img src="./estilo/img/coca.png" alt="franguinho">
+                <p class="name">Coquinha Gelada</p>
+                <p class="description">Coca 350ml</p>
+                <p class="price">R$ 4,90</p>
+                <ion-icon class="check hidden" name="checkmark-circle"></ion-icon>
+            </div>
+        </section>
+        <h3>Por fim, sua sobremesa</h3>
+
+        <section class="dessert">
+            <div class="food-option" onclick="selectDessert(this,'pudim',8.90)">
+                <img src="./estilo/img/pudim.png" alt="franguinho">
+                <p class="name">Pudim</p>
+                <p class="description">Apenas Pudim</p>
+                <p class="price">R$ 7,90</p>
+                <ion-icon class="check hidden" name="checkmark-circle"></ion-icon>
+            </div>
+            <div class="food-option" onclick="selectDessert(this,'pudim',8.90)">
+                <img src="./estilo/img/pudim.png" alt="franguinho">
+                <p class="name">Pudim</p>
+                <p class="description">Apenas Pudim</p>
+                <p class="price">R$ 7,90</p>
+                <ion-icon class="check hidden" name="checkmark-circle"></ion-icon>
+            </div>
+            <div class="food-option" onclick="selectDessert(this,'pudim',8.90)">
+                <img src="./estilo/img/pudim.png" alt="franguinho">
+                <p class="name">Pudim</p>
+                <p class="description">Apenas Pudim</p>
+                <p class="price">R$ 7,90</p>
+                <ion-icon class="check hidden" name="checkmark-circle"></ion-icon>
+            </div>
+            <div class="food-option" onclick="selectDessert(this,'pudim',8.90)">
+                <img src="./estilo/img/pudim.png" alt="franguinho">
+                <p class="name">Pudim</p>
+                <p class="description">Apenas Pudim</p>
+                <p class="price">R$ 7,90</p>
+                <ion-icon class="check hidden" name="checkmark-circle"></ion-icon>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <button onclick="orderFood()" disabled>
+            Selecione os 3 itens para fechar o pedido
+        </button>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
