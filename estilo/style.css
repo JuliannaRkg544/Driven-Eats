@@ -65,7 +65,7 @@ footer {
 section{
     overflow-x: scroll;
 }
-.selecionado .check{
+.selected .check{
     display: block;
 }
 footer button {
@@ -111,6 +111,7 @@ footer button {
     position: absolute;
     bottom: 10px;
     right: 10px;
+    display: none;
   
 }
 .hidden{
@@ -121,10 +122,57 @@ footer button {
     border: solid 4px #32B72F;
 }
 
-.release {
+.released {
     background-color: #32B72F;
     font-weight: 700;
   }
-  
+aside{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 19px;
+    font-size: 22px; 
+}
+.review{
 
+  background-color: #32B72F;
+  color: var(--branco);
+  width: 377px;
+  height: 353px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 9px;
+    
+
+    /* width: 377px;
+    height: 353px;
+    background-color: #32B72F;
+    position: absolute;
+    margin: 0 auto  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+   
+}
   
+.review button{
+    border-radius: 100px;
+  padding: 5px 10px;
+  color: #32B72F;
+  font-weight: 700;
+  width: 333px;
+  height: 50px;
+  font-size: 22px;
+  border: none;
+}
